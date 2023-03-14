@@ -1,0 +1,25 @@
+.aboutSectionWrapper {
+    color: whitesmoke;
+}
+
+.imagePlaceholder {
+    height: 400px;
+    width: 400px;
+    background-color: whitesmoke;
+}
+
+.aboutText {
+
+}
+
+.aboutHeader {
+    font-size: 64px;
+    position: relative;
+}
+
+.aboutHeaderDecoration {
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    color: #f5f5f530
+}
