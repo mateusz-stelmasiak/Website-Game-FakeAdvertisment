@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed0582b-c5ab-4628-956f-fd9a3251b61e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/components/pageHero/pageHero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pageHero/pageHero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pageHeroVideo.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pageHero/pageHero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/custom.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pageHero/pageHero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pageHero/pageHero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +34,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Wojtek/Documents/GitHub/Emarketing-bullel-ad/emakreting-bullel",
+    "last_opened_file_path": "C:/Users/Wojtek/Documents/GitHub/Emarketing-bullel-ad/emakreting-bullel/src/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "ts.external.directory.path": "C:\\Users\\Wojtek\\Documents\\GitHub\\Emarketing-bullel-ad\\emakreting-bullel\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Wojtek\Documents\GitHub\Emarketing-bullel-ad\emakreting-bullel\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Wojtek\Documents\GitHub\Emarketing-bullel-ad\emakreting-bullel\src\assets" />
       <recent name="C:\Users\Wojtek\Documents\GitHub\Emarketing-bullel-ad\emakreting-bullel\src" />
     </key>
   </component>
@@ -57,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678804578577</updated>
-      <workItem from="1678804586784" duration="282000" />
+      <workItem from="1678804586784" duration="1335000" />
     </task>
     <servers />
   </component>
