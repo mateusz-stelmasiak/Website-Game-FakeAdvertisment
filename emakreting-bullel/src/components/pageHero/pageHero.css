@@ -30,5 +30,12 @@
     height: 80vh;
     width: 100%;
     position: relative;
+}
 
+.pageHeroHeader{
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 128px;
 }

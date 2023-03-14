@@ -17,7 +17,9 @@ export default function PageHero() {
                 height="100%"
             />
             <div className={"overlay"}>
+                <div className={"pageHeroHeader"}>
                 BULLEL
+                </div>
             </div>
         </div>
     </div>
