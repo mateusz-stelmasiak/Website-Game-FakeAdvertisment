@@ -1,12 +1,13 @@
-.pageHeroVideo{
+.pageHeroVideo {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 80%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.pageHeroVideo video{
+
+.pageHeroVideo video {
     object-fit: fill;
 }
 
@@ -14,4 +15,20 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pageHeroWrapper {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+
 }
