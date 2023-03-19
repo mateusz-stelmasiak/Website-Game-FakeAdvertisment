@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed0582b-c5ab-4628-956f-fd9a3251b61e" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/assets/Steam_icon_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/reviewCard/reviewCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/reviewCard/reviewCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pageHero/pageHero.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pageHero/pageHero.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/testSection/aboutSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testSection/aboutSection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/testSection/aboutSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testSection/aboutSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/reviewsSection/reviewsSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviewsSection/reviewsSection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/reviewsSection/reviewsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviewsSection/reviewsSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\WojciechMazurowski\\Documents\\Emarketing-bullel-ad\\emakreting-bullel\\node_modules\\typescript\\lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/WojciechMazurowski/Documents/Emarketing-bullel-ad/emakreting-bullel/src/assets",
+    "ts.external.directory.path": "C:\\Users\\WojciechMazurowski\\Documents\\Emarketing-bullel-ad\\emakreting-bullel\\node_modules\\typescript\\lib"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WojciechMazurowski\Documents\Emarketing-bullel-ad\emakreting-bullel\src\assets" />
       <recent name="C:\Users\Wojtek\Documents\GitHub\Emarketing-bullel-ad\emakreting-bullel\src\assets" />
       <recent name="C:\Users\Wojtek\Documents\GitHub\Emarketing-bullel-ad\emakreting-bullel\src\components" />
     </key>
