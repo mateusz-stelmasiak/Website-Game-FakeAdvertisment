@@ -4,7 +4,7 @@ import {Row, Col, Button} from "antd";
 
 export default function AboutSection() {
 
-    return <div>
+    return <div style={{marginTop:200}}>
         <div className={"infoText"}>
             <Button className={"infoButton"}>about&nbsp;</Button> | <Button
             className={"infoButton"}>&nbsp;reviews&nbsp;</Button> | <Button
