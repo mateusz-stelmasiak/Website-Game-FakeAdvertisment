@@ -1,7 +1,7 @@
 import "./Contact.css"
 import React, {useState} from "react";
 import {Button, Form, Input} from "antd";
-
+import {MessageFilled} from '@ant-design/icons';
 const emailRegex = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
 const sendContactMsgPath = "/PhpScripts/sendContactMsg.php"
 
@@ -127,21 +127,26 @@ function Contact({}) {
 
                 </Form>
             </div>
-            <div className={"textContainer"}>
+            <div>
+                <MessageFilled className={"icon"}/>
+                <div className={"textContainer"}>
 
-                <h2 className={"titleText"}>
-                    <div>
-                        <div className={"aboutHeader"}>
-                            CONTACT
-                            <div className={"aboutHeaderDecoration"}>
+                    <h2 className={"titleText"}>
+                        <div>
+                            <div className={"aboutHeader"}>
                                 CONTACT
+                                <div className={"aboutHeaderDecoration"}>
+                                    CONTACT
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </h2>
-                {/*<FontAwesomeIcon icon={faMessage} size="lg" className={styles.icon}/>*/}
-                <div className={"titleBackgroundBlur"}/>
+                    </h2>
+
+                    <div className={"titleBackgroundBlur"}/>
+                </div>
             </div>
+
+
         </section>
     );
 }

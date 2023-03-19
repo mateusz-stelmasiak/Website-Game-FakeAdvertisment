@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed0582b-c5ab-4628-956f-fd9a3251b61e" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contactForm/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contactForm/Contact.css" afterDir="false" />
@@ -29,11 +31,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WebDev/drugie-zycie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="ts.external.directory.path" value="C:\Users\User\Desktop\uni\Emarketing-bullel-ad\emakreting-bullel\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\uni\Emarketing-bullel-ad\emakreting-bullel\src\components" />
       <recent name="C:\Users\Wojtek\Documents\GitHub\Emarketing-bullel-ad\emakreting-bullel\src\assets" />
       <recent name="C:\Users\Wojtek\Documents\GitHub\Emarketing-bullel-ad\emakreting-bullel\src\components" />
     </key>
