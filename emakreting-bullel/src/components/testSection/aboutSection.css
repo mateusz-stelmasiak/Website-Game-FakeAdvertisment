@@ -1,5 +1,6 @@
 .aboutSectionWrapper {
     color: whitesmoke;
+    margin-bottom: 40px;
 }
 
 .imagePlaceholder {
@@ -9,7 +10,8 @@
 }
 
 .aboutText {
-    margin-left:20px;
+    margin-left: 60px;
+    font-size: 24px;
 }
 
 .aboutHeader {
@@ -25,7 +27,19 @@
     color: #f5f5f530
 }
 
-.aboutColumn{
-    display:flex;
+.aboutColumn {
+    display: flex;
 
+}
+
+.infoText {
+    font-size: 36px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.infoButton {
+    all: unset;
+    cursor: pointer;
 }
