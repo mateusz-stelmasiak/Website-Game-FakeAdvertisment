@@ -1,1 +1,13 @@
+/*below what happens if breakpoint*/
+@media only screen and (max-width: 900px){
+    .pageHeroVideo video {
+        object-fit: cover;
+        object-position: 40% 0;
+    }
+}
+@media only screen and (max-width: 1700px){
+    .App{
+        padding:0 2rem;
+    }
 
+}

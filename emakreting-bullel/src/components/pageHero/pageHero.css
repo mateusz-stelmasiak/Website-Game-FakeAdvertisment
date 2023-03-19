@@ -68,9 +68,3 @@
     font-size: 32px;
 }
 
-@media only screen and (max-width: 900px){
-    .pageHeroVideo video {
-        object-fit: cover;
-        object-position: 40% 0;
-    }
-}
