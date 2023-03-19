@@ -6,24 +6,25 @@ const emailRegex = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]
 const sendContactMsgPath = "/PhpScripts/sendContactMsg.php"
 
 function Contact({}) {
+
     const [feedback, setFeedback] = useState<any>("");
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [msg, setMsg] = useState("");
 
-    function inputEmail(mail:string) {
+    function inputEmail(mail: string) {
         if (mail.length > 256) return;
         setFeedback("");
         setEmail(mail);
     }
 
-    function inputName(name:string) {
+    function inputName(name: string) {
         if (name.length > 50) return;
         setFeedback("");
         setName(name);
     }
 
-    function inputMsg(msg:string) {
+    function inputMsg(msg: string) {
         if (msg.length > 500) {
             setFeedback("Wiadomość zbyt długa!");
             return;
@@ -38,7 +39,7 @@ function Contact({}) {
         setEmail("");
     }
 
-    async function sendMsg(event:any) {
+    async function sendMsg(event: any) {
         event.preventDefault();
 
         //validate email
@@ -78,65 +79,70 @@ function Contact({}) {
 
 
     return (
-        <div className="InfoPage Contact">
-            <div className={"aboutHeader"}>
-                CONTACT
-                <div className={"aboutHeaderDecoration"}>
-                    CONTACT
-                </div>
+        <section className={"contactSectionContainer"} id="contact">
+
+            <div className={"contactContainer"}>
+                <Form>
+                    <Form.Item>
+                        <Input
+                            id="name"
+                            value={name}
+                            onChange={(e) => inputName(e.target.value)}
+                            placeholder="Twoje imię i nazwisko"
+                            required
+                        className={"form-group"}
+                        >
+                        </Input>
+                    </Form.Item>
+                    <Form.Item>
+                        <Input
+                            id="email"
+                            type="email"
+                            value={email}
+                            onChange={(e) => inputEmail(e.target.value)}
+                            placeholder="Twój adres email"
+                            required>
+                        </Input>
+                    </Form.Item>
+                    <Form.Item>
+                        <Input
+                            type="textarea"
+                            id="msg"
+                            value={msg}
+                            onChange={(e) => inputMsg(e.target.value)}
+                            placeholder="Twoja wiadomość"
+                            required>
+                        </Input>
+                    </Form.Item>
+
+
+                    {feedback !== "" &&
+                    <div className="feedback">
+                        {feedback}
+                    </div>}
+
+                    {/*<Button type='primary' onSubmit={sendMsg}>*/}
+                    {/*    Wyślij*/}
+                    {/*</Button>*/}
+
+                </Form>
             </div>
-            <p>
-                Contact us by phone or email by filling out the form below.
-                <br/><br/>Tel. <a href="tel:+48888888888">+48 512 556 512</a>
-            </p>
+            <div className={"textContainer"}>
 
-
-            <Form>
-                <Form.Item>
-                    <Input
-                        id="name"
-                        value={name}
-                        onChange={(e) => inputName(e.target.value)}
-                        placeholder="Twoje imię i nazwisko"
-                        required>
-                    </Input>
-                </Form.Item>
-                <Form.Item>
-                    <Input
-                        id="email"
-                        type="email"
-                        value={email}
-                        onChange={(e) => inputEmail(e.target.value)}
-                        placeholder="Twój adres email"
-                        required>
-                    </Input>
-                </Form.Item>
-                <Form.Item>
-                    <Input
-                        type="textarea"
-                        id="msg"
-                        value={msg}
-                        onChange={(e) => inputMsg(e.target.value)}
-                        placeholder="Twoja wiadomość"
-                        required>
-                    </Input>
-                </Form.Item>
-
-
-
-                {feedback !== "" &&
-                <div className="feedback">
-                    {feedback}
-                </div>}
-
-                <Button type='primary' onSubmit={sendMsg}>
-                    Wyślij
-                </Button>
-
-            </Form>
-
-
-        </div>
+                <h2 className={"titleText"}>
+                    <div>
+                        <div className={"aboutHeader"}>
+                            CONTACT
+                            <div className={"aboutHeaderDecoration"}>
+                                CONTACT
+                            </div>
+                        </div>
+                    </div>
+                </h2>
+                {/*<FontAwesomeIcon icon={faMessage} size="lg" className={styles.icon}/>*/}
+                <div className={"titleBackgroundBlur"}/>
+            </div>
+        </section>
     );
 }
 
