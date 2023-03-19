@@ -37,9 +37,11 @@
     color: white;
     display: flex;
     justify-content: flex-end;
+
 }
 
 .infoButton {
     all: unset;
     cursor: pointer;
 }
+

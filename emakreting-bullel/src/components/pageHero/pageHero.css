@@ -38,7 +38,7 @@
 
 .pageHeroHeader{
     position: absolute;
-    bottom: -27%;
+    bottom: -15%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -67,4 +67,3 @@
     padding:15px 45px;
     font-size: 32px;
 }
-
