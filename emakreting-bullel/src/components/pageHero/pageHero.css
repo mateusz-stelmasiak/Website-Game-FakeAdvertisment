@@ -24,6 +24,9 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0px 0px 27px 25px rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 0px 0px 27px 25px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 27px 25px rgba(0, 0, 0, 1);
 }
 
 .pageHeroWrapper {
@@ -35,9 +38,39 @@
 
 .pageHeroHeader{
     position: absolute;
-    bottom: -10%;
+    bottom: -27%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 128px;
-    color:whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pageHeroHeader h1{
+    font-size: 100px;
+    margin:unset;
+    font-weight: 700;
+}
+
+.pageHeroHeader .pageHeroSubheading{
+    font-size: 28px;
+    margin-top: -15px;
+    font-weight: 500;
+}
+
+.pageHeroHeader button{
+    all:unset;
+    cursor: pointer;
+    margin-top: 15px;
+    color:black;
+    background-color: white;
+    padding:15px 45px;
+    font-size: 32px;
+}
+
+@media only screen and (max-width: 900px){
+    .pageHeroVideo video {
+        object-fit: cover;
+        object-position: 40% 0;
+    }
 }
