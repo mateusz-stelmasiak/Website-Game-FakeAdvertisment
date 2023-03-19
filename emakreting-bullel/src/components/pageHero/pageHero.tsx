@@ -18,8 +18,11 @@ export default function PageHero() {
             />
             <div className={"overlay"}>
                 <div className={"pageHeroHeader"}>
-                BULLEL
+                    <h1>BULLEL</h1>
+                    <div className={"pageHeroSubheading"}>eternal storm</div>
+                    <button>PLAY NOW</button>
                 </div>
+
             </div>
         </div>
     </div>
