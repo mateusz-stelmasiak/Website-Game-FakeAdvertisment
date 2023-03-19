@@ -21,10 +21,10 @@
 
 .reviewPlaceholder {
     height: 500px;
-    width: 280px;
     background-color: gray;
     margin-left: 25px;
     margin-right: 25px;
+    max-width: 320px;
 
 }
 
