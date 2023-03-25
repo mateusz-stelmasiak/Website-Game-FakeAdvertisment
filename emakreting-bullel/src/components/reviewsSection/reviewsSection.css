@@ -19,6 +19,7 @@
 
 .reviewHeader {
     font-size: 64px;
+    font-weight: 650;
     position: relative;
     margin-bottom: -15px;
     display: flex;
