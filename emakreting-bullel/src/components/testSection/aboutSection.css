@@ -8,10 +8,20 @@
     width: 530px;
 }
 
-.imgContainerInfo{
-object-fit: fill;
+.aboutImageContainer {
+    object-fit: fill;
     height: 460px;
     width: 530px;
+    border-radius: 16px;
+    box-shadow: 0px 10px 38px 0px rgba(62, 62, 107, 0.6);
+}
+
+.imgContainerInfo {
+    object-fit: fill;
+    height: 460px;
+    width: 530px;
+    border-radius: 16px;
+    box-shadow: 0px 10px 38px 0px rgba(38, 107, 29, 0.6);
 }
 
 .aboutText {

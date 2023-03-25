@@ -34,6 +34,7 @@ function App() {
                 "Bullel to gBullel to gra jest gra ra jest gra " +
                 "Bullel to gra jest gra lBullel to gra jest gra Bullel to gra jest gra Bullel to gra jest gra " +
                 "Bullel to gra jest gra lel to gra jesBullel to gra jest gra t gra "}/>
+            <div style={{height:"100px"}}></div>
         </Col>
         <Footer/>
     </Row>

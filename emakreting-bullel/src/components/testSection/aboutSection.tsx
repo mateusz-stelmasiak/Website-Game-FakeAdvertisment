@@ -1,10 +1,10 @@
 import "./aboutSection.css"
 import {Row, Col, Button} from "antd";
-
+import AboutImage from "../../assets/chrome_4T6Fo21uL7.png"
 
 export default function AboutSection() {
 
-    return <div style={{marginTop:200}}>
+    return <div style={{marginTop: 200}}>
         <div className={"infoText"}>
             <Button className={"infoButton"}>about&nbsp;</Button> | <Button
             className={"infoButton"}>&nbsp;reviews&nbsp;</Button> | <Button
@@ -12,9 +12,7 @@ export default function AboutSection() {
         </div>
         <Row className={"aboutSectionWrapper"}>
             <Col span={8} className={"aboutColumn"}>
-                <div className={"imagePlaceholder"}>
-
-                </div>
+                    <img src={AboutImage} className={"aboutImageContainer"}/>
             </Col>
             <Col span={16} className={"aboutColumn"}>
                 <div className={"aboutText"}>
