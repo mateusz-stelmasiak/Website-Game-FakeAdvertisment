@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed0582b-c5ab-4628-956f-fd9a3251b61e" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contactForm/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contactForm/Contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contactForm/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contactForm/Contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Facebook_f_logo_(2019).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Instagram_logo_2016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Logo blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/epic-games-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/v982-d3-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/findUs/FindUsSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/findUs/findUsSection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/reviewCard/reviewCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviewCard/reviewCard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/reviewsSection/reviewsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviewsSection/reviewsSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testSection/aboutSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testSection/aboutSection.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
