@@ -11,11 +11,12 @@ import InfoImageOne from "./assets/chrome_JUkZPz2jkv.png";
 import InfoImageTwo from "./assets/chrome_FI1j4IorZ2.png";
 
 
+import Footer from "./components/footer/footer"
 function App() {
   return (
     <Row className="App">
+        <PageHero/>
         <Col xxl={{offset:2,span:20}} xl={{span:24, offset:0}}>
-            <PageHero/>
             <AboutSection/>
             <ReviewsSection/>
             <FindUsSection/>
@@ -34,6 +35,7 @@ function App() {
                 "Bullel to gra jest gra lBullel to gra jest gra Bullel to gra jest gra Bullel to gra jest gra " +
                 "Bullel to gra jest gra lel to gra jesBullel to gra jest gra t gra "}/>
         </Col>
+        <Footer/>
     </Row>
   );
 }

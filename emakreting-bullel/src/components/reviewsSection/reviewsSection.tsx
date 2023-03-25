@@ -26,6 +26,7 @@ export default function ReviewsSection() {
         <Slider dots={true} infinite={true} speed={500} slidesToShow={4} slidesToScroll={1}>
             <div className={"reviewPlaceholder"}>
                 <ReviewCard
+
                     reviewText={"\"This game is insane! Bullel's difficulty level is through the roof, but it's so rewarding when you make progress.\" - ProGamerX"}
                     companyName={"STEAM"} logo={SteamLogo} starCount={5}/>
 
