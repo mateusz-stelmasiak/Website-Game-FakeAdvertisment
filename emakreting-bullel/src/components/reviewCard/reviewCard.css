@@ -1,11 +1,12 @@
 .cardWrapper{
     height: 500px;
     width: 280px;
-    background-color: gray;
+    background-color: transparent;
     margin-left: 25px;
     margin-right: 25px;
     border-radius: 12px!important;
     text-align: center;
+
 }
 
 .reviewCompany{

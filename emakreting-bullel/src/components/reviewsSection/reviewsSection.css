@@ -21,11 +21,12 @@
 
 .reviewPlaceholder {
     height: 500px;
-    background-color: gray;
     margin-left: 25px;
     margin-right: 25px;
     max-width: 320px;
-
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(255, 255, 255, 1);
+    box-shadow: 8px 8px 24px 0px rgba(255, 255, 255, 1);
 }
 
 .reviewsImages {

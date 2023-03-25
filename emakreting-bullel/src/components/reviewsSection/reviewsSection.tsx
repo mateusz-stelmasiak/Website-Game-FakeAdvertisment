@@ -27,7 +27,7 @@ export default function ReviewsSection() {
             <div className={"reviewPlaceholder"}>
                 <ReviewCard
                     reviewText={"\"This game is insane! Bullel's difficulty level is through the roof, but it's so rewarding when you make progress.\" - ProGamerX"}
-                    companyName={"STEAM"} logo={SteamLogo} starCount={4.5}/>
+                    companyName={"STEAM"} logo={SteamLogo} starCount={5}/>
 
             </div>
             <div className={"reviewPlaceholder"}>
@@ -39,7 +39,7 @@ export default function ReviewsSection() {
             <div className={"reviewPlaceholder"}>
                 <ReviewCard
                     reviewText={"\"Bullel is the ultimate bullet hell game! It's not for the faint of heart, but if you're up for the challenge, it's so worth it.\" - BulletStormer"}
-                    companyName={"EPIC GAMES"} logo={EpicLogo} starCount={4.5}/>
+                    companyName={"EPIC GAMES"} logo={EpicLogo} starCount={4}/>
 
             </div>
             <div className={"reviewPlaceholder"}>

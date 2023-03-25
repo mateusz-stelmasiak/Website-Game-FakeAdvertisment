@@ -6,11 +6,21 @@
 .imagePlaceholder {
     height: 460px;
     width: 530px;
-    background-color: whitesmoke;
+}
+
+.imgContainerInfo{
+object-fit: fill;
+    height: 460px;
+    width: 530px;
 }
 
 .aboutText {
     margin-left: 60px;
+    font-size: 24px;
+}
+
+.aboutTextRight {
+
     font-size: 24px;
 }
 
