@@ -26,9 +26,8 @@ export default function ReviewsSection() {
         <Slider dots={true} infinite={true} speed={500} slidesToShow={4} slidesToScroll={1}>
             <div className={"reviewPlaceholder"}>
                 <ReviewCard
-                    reviewText={"\" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim nulla leo, in feugiat\n" +
-                        "                        felis vehicula elemeentum, est eu posuere suscipit, eros\n\""}
-                    companyName={"steam"} logo={SteamLogo} starCount={4.5}/>
+                    reviewText={"\"Super gra, spędziłem w niej 3 godziny a nadal nie moge przejść drugiego poziomu\" - BlackSheep7"}
+                    companyName={"STEAM"} logo={SteamLogo} starCount={4.5}/>
 
             </div>
             <div className={"reviewPlaceholder"}>

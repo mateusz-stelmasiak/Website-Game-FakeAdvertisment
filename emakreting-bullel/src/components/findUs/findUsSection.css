@@ -1,0 +1,11 @@
+
+.findUsSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+
+
+.logo{
+    height: 128px;
+}

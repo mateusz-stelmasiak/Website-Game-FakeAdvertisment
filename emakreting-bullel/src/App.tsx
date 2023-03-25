@@ -5,6 +5,7 @@ import AboutSection from "./components/testSection/aboutSection";
 import {Col, Row} from "antd";
 import Contact from "./components/contactForm/Contact";
 import ReviewsSection from "./components/reviewsSection/reviewsSection";
+import FindUsSection from "./components/findUs/FindUsSection";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             <PageHero/>
             <AboutSection/>
             <ReviewsSection/>
+            <FindUsSection/>
             <Contact/>
         </Col>
     </Row>
