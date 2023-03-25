@@ -2,6 +2,7 @@ import "./Contact.css"
 import React, {useState} from "react";
 import {Button, Form, Input} from "antd";
 import {MessageFilled} from '@ant-design/icons';
+import TextArea from "antd/es/input/TextArea";
 const emailRegex = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
 const sendContactMsgPath = "/PhpScripts/sendContactMsg.php"
 
@@ -80,12 +81,31 @@ function Contact({}) {
 
     return (
         <section className={"contactSectionContainer"} id="contact">
+            <div>
+                <MessageFilled className={"icon"}/>
+                <div className={"textContainer"}>
+
+                    <h2 className={"titleText"}>
+                        <div>
+                            <div className={"aboutHeader"}>
+                                CONTACT
+                                <div className={"aboutHeaderDecoration"}>
+                                    CONTACT
+                                </div>
+                            </div>
+                        </div>
+                    </h2>
+
+                    <div className={"titleBackgroundBlur"}/>
+                </div>
+            </div>
 
             <div className={"contactContainer"}>
                 <Form>
                     <Form.Item>
                         <Input
                             id="name"
+                            type="text"
                             value={name}
                             onChange={(e) => inputName(e.target.value)}
                             placeholder="Twoje imię i nazwisko"
@@ -105,14 +125,14 @@ function Contact({}) {
                         </Input>
                     </Form.Item>
                     <Form.Item>
-                        <Input
-                            type="textarea"
+                        <TextArea
+                            rows={4}
+                            placeholder="Twoja wiadomość"
+                            maxLength={20}
                             id="msg"
                             value={msg}
                             onChange={(e) => inputMsg(e.target.value)}
-                            placeholder="Twoja wiadomość"
-                            required>
-                        </Input>
+                            required/>
                     </Form.Item>
 
 
@@ -121,30 +141,13 @@ function Contact({}) {
                         {feedback}
                     </div>}
 
-                    {/*<Button type='primary' onSubmit={sendMsg}>*/}
-                    {/*    Wyślij*/}
-                    {/*</Button>*/}
+                    <button type={"submit"} onSubmit={sendMsg}>
+                        Wyślij
+                    </button>
 
                 </Form>
             </div>
-            <div>
-                <MessageFilled className={"icon"}/>
-                <div className={"textContainer"}>
 
-                    <h2 className={"titleText"}>
-                        <div>
-                            <div className={"aboutHeader"}>
-                                CONTACT
-                                <div className={"aboutHeaderDecoration"}>
-                                    CONTACT
-                                </div>
-                            </div>
-                        </div>
-                    </h2>
-
-                    <div className={"titleBackgroundBlur"}/>
-                </div>
-            </div>
 
 
         </section>

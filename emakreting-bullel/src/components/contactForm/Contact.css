@@ -10,18 +10,14 @@
     justify-content: space-around;
 }
 
-.Contact button{
-    background-color: var(--text-color);
-    padding: 1rem 4rem;
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
-}
+
 
 .Contact form{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
+    column-gap: 1rem;
     background-color: var(--bg-color);
     padding: 5% 5%;
     margin-bottom: 5rem;
@@ -41,25 +37,6 @@
 }
 
 
-.Contact input[type=text], input[type=email], textarea{
-    width: min(30rem,90%);
-    font-size: 1rem;
-    outline: none;
-    -webkit-appearance: none;
-    appearance: none;
-
-    background-clip: content-box;
-    border: 1.5px black solid;
-    border-radius: 2%;
-    background-color: var(--text-color);
-    text-align: left;
-    padding: 1rem 1rem;
-    -webkit-transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
-    color: var(--text-color);
-}
 
 .Contact textarea {
     width: min(50rem,90%);
@@ -71,29 +48,30 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    column-gap: 5rem;
+    column-gap: 10rem;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
     padding: 2rem 0 7rem;
 }
 
 .contactContainer {
     width: min(100%, 75rem);
     background-color: var(--bg-color);
-    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0.50);
+    box-shadow: -15px 0px 24px 0px rgba(66, 68, 90, 0.50);
     position: relative;
     z-index: 2;
 }
 
 .contactContainer button {
-    border:none;
-    background-color: var(--text-color) !important;
-    color: black;
+    background-color: transparent !important;
+    color: white;
     cursor: pointer;
     padding: 0.7rem 5rem;
     font-size: 1.5rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
+    border: 1.5px whitesmoke solid;
 }
+
 .textContainer svg path{
     fill:var(--primary-color);
     transform: scale(2);
@@ -117,31 +95,44 @@
 }
 
 
+.contactContainer textarea {
+    width: 90%;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+}
 
-.contactContainer input[type=text], .contactContainer input[type=email], .contactContainer textarea {
-    width: 70%;
-    font-size: 1rem;
+.contactContainer .ant-form-item-control-input-content{
+        font-size: 1rem;
+
+}
+
+.contactContainer .ant-input{
     outline: none;
     -webkit-appearance: none;
     appearance: none;
 
     background-clip: content-box;
-    border: 1px black solid;
-    border-radius: 2%;
-    background-color: var(--text-color);
     text-align: left;
-    padding: 1rem 1rem;
+
     -webkit-transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -ms-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
-    color: black;
+    background-color:transparent;
+    color:white;
+    font-size: 1.2rem;
+    border: 1.5px whitesmoke solid;
+    border-radius: 1%;
+    padding: 1rem 1rem;
+    width: min(100%,40rem);
+}
+.contactContainer textarea{
+    width: 95% !important;
 }
 
-.contactContainer textarea {
-    width: 90%;
-    font-family: Arial, sans-serif;
-    resize: vertical;
+.contactContainer ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: whitesmoke;
+    opacity: 0.8; /* Firefox */
 }
 
 .textContainer {
@@ -236,6 +227,9 @@
 .contactSectionContainer .aboutHeaderDecoration{
     transform: translateX(15px) translateY(-115px);
 }
+
+
+
 @media only screen and (max-width: 800px) {
     .contactContainer input[type=text], .contactContainer input[type=email], .contactContainer textarea {
         width: 100%;

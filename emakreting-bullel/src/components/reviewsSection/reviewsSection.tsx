@@ -27,8 +27,8 @@ export default function ReviewsSection() {
             <div className={"reviewPlaceholder"}>
                 <ReviewCard
                     reviewText={"\" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim nulla leo, in feugiat\n" +
-                        "                        felis vehicula elemeentum, est eu posuere suscipit, eros\n\""}
-                    companyName={"steam"} logo={SteamLogo} starCount={4.5}/>
+                        "                        felis vehicula\n\""}
+                    companyName={"STEAM"} logo={SteamLogo} starCount={4.5}/>
 
             </div>
             <div className={"reviewPlaceholder"}>

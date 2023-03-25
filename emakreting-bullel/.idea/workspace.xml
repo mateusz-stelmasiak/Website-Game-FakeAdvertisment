@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4ed0582b-c5ab-4628-956f-fd9a3251b61e" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/reviewsSection/reviewsSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviewsSection/reviewsSection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contactForm/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contactForm/Contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contactForm/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contactForm/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/reviewsSection/reviewsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviewsSection/reviewsSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +28,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\Users\User\Desktop\uni\Emarketing-bullel-ad\emakreting-bullel\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,6 +70,8 @@
       <workItem from="1678804586784" duration="2711000" />
       <workItem from="1678813726096" duration="1844000" />
       <workItem from="1679237720220" duration="502000" />
+      <workItem from="1679485221285" duration="1327000" />
+      <workItem from="1679771389240" duration="2403000" />
     </task>
     <servers />
   </component>
