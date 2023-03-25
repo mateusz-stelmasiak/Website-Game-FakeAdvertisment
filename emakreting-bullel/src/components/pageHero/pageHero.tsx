@@ -5,10 +5,11 @@ import "./pageHero.css"
 import overlayImage from "../../assets/shadow.png"
 import left from "../../assets/left.png"
 import right from "../../assets/right.png"
-
+import logo from "../../assets/logo.png"
 export default function PageHero() {
 
     return <div className={"pageHeroWrapper"}>
+
         <div className={"pageHeroVideo"}>
             <ReactPlayer
                 className={"react-player"}
@@ -27,9 +28,12 @@ export default function PageHero() {
                 <div className={"overlay"}
                      style={{backgroundImage: `url(${right})`, backgroundRepeat: 'no-repeat', objectFit: 'cover'}} id={"right-overlay"}/>
                 <div className={"pageHeroHeader"}>
-                    <h1>BULLEL</h1>
-                    <div className={"pageHeroSubheading"}>eternal storm</div>
-                    <button>PLAY NOW</button>
+                    {/*<h1>BULLEL</h1>*/}
+                    {/*<div className={"pageHeroSubheading"}>eternal storm</div>*/}
+                    <img src={logo}/>
+                    <button className={"pageHeroVideo"}>
+                        PLAY NOW ▷
+                    </button>
                 </div>
 
             </div>

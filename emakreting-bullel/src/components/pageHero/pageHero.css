@@ -68,10 +68,29 @@
     all:unset;
     cursor: pointer;
     margin-top: 15px;
-    color:black;
-    background-color: white;
-    padding:15px 45px;
+    color:white;
+    background-color: transparent;
+    padding:15px 25px 15px 45px;
     font-size: 32px;
+    border: 3px solid whitesmoke;
+    transition: transform 330ms ease-in-out;
+    top:35%;
+    position: absolute;
+    left: 28%;
+    right: 0;
+    overflow: hidden;
+    z-index: 1;
+    width: 200px;
+    text-align: right;
+}
+.pageHeroHeader img{
+    position: relative;
+    top:0;
+    z-index: 2;
+}
+.pageHeroHeader button:hover{
+    transform: translateX(160px);
+
 }
 
 #right-overlay{
