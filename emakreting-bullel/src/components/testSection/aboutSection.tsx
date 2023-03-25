@@ -4,7 +4,7 @@ import AboutImage from "../../assets/chrome_4T6Fo21uL7.png"
 
 export default function AboutSection() {
 
-    return <div style={{marginTop: 200}}>
+    return <div style={{marginTop: 200, marginBottom: 150}}>
         <div className={"infoText"}>
             <Button className={"infoButton"}>about&nbsp;</Button> | <Button
             className={"infoButton"}>&nbsp;reviews&nbsp;</Button> | <Button
@@ -12,7 +12,7 @@ export default function AboutSection() {
         </div>
         <Row className={"aboutSectionWrapper"}>
             <Col span={8} className={"aboutColumn"}>
-                    <img src={AboutImage} className={"aboutImageContainer"}/>
+                <img src={AboutImage} className={"aboutImageContainer"}/>
             </Col>
             <Col span={16} className={"aboutColumn"}>
                 <div className={"aboutText"}>
@@ -23,19 +23,16 @@ export default function AboutSection() {
                         </div>
                     </div>
                     <div className={"aboutDescription"}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim nulla leo, in feugiat
-                        felis vehicula elementum. Nulla facilisi. Suspendisse elementum, est eu posuere suscipit, eros
-                        quam
-                        iaculis elit, a aliquam lacus nibh at nulla. Nam mattis, dui quis hendrerit tempor, nisl felis
-                        venenatis sem, vehicula cursus diam sem at turpis. Suspendisse dolor lacus, placerat eget
-                        rhoncus
-                        eget, aliquam non lectus. Aliquam vitae tincidunt turpis. Ut fermentum odio velit, ut
-                        sollicitudin
-                        sem ullamcorper vitae. Quisque porttitor dolor felis, eu tempus sapien convallis luctus. Nullam
-                        interdum faucibus urna, ac bibendum diam rhoncus sed. Maecenas erat tortor, tempor interdum
-                        eleifend
-                        quis, condimentum ac urna. Nullam placerat eu lectus sit amet dignissim. Phasellus augue lacus,
-                        fermentum at mattis ac, eleifend at ipsum.
+                        Welcome to our bullet hell game with a twist! Inspired by mid-journey art and set in a
+                        dark-fantasy world, our game is designed to push your skills to the limit. With challenging
+                        gameplay and puzzles that will test your problem-solving abilities, this game is not for the
+                        faint-hearted.
+                        <br/>
+                        <br/>
+                        We've designed our game to be challenging yet rewarding. Every level is hand-crafted to provide
+                        a unique and satisfying experience for players. Our team is dedicated to making sure that our
+                        game is polished and finely-tuned, so you can be sure that you're getting the best possible
+                        experience.
                     </div>
                 </div>
             </Col>
