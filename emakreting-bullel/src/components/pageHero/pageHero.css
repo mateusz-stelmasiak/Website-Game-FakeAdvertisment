@@ -7,8 +7,12 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+
 .pageHeroVideo video {
     object-fit: fill;
+    object-position: 30% 50%;
+    position: absolute;
+    top:-50px;
 }
 
 .react-player {
@@ -27,6 +31,8 @@
     -webkit-box-shadow: inset 0px 0px 27px 25px rgba(0, 0, 0, 1);
     -moz-box-shadow: inset 0px 0px 27px 25px rgba(0, 0, 0, 1);
     box-shadow: inset 0px 0px 27px 25px rgba(0, 0, 0, 1);
+    background-repeat: no-repeat;
+    object-fit: fill;
 }
 
 .pageHeroWrapper {
@@ -66,4 +72,9 @@
     background-color: white;
     padding:15px 45px;
     font-size: 32px;
+}
+
+#right-overlay{
+    right: 0;
+    background-position: 100% 0%;
 }
