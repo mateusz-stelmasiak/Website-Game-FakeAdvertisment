@@ -1,5 +1,5 @@
 import "./reviewsSection.css"
-import {Col, Row} from "antd";
+import {Button, Col, Row} from "antd";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -23,6 +23,8 @@ export default function ReviewsSection() {
                 REVIEWS
             </div>
         </div>
+        <span>they say we're good...</span>
+
         <Slider dots={true} infinite={true} speed={500} slidesToShow={4} slidesToScroll={1}>
             <div className={"reviewPlaceholder"}>
                 <ReviewCard
@@ -62,5 +64,6 @@ export default function ReviewsSection() {
 
             </div>
         </Slider>
+        <Button>SEE ALL</Button>
     </div>
 }
