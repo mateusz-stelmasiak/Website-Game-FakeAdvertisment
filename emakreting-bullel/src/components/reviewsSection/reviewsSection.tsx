@@ -20,7 +20,13 @@ export default function ReviewsSection() {
         slidesToScroll: 1
     };
 
+
+    let handleSeeAll = ()=>{
+        window.location.href = `https://store.steampowered.com/`
+    }
+    
     return <div id={"reviews"} className={"reviewsWrapper"}>
+
         <div className={"reviewHeader"}>
             REVIEWS
             <div className={"reviewHeaderDecoration"}>
@@ -68,6 +74,6 @@ export default function ReviewsSection() {
 
             </div>
         </Slider>
-        <Button>SEE ALL</Button>
+        <Button onClick={handleSeeAll}>SEE ALL</Button>
     </div>
 }

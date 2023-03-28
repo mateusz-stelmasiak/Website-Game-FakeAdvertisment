@@ -24,9 +24,13 @@ export default function LogoButton() {
         };
     }, []);
 
+    let handlePlayNow = ()=>{
+        window.location.href = `https://store.steampowered.com/`
+    }
+
     return <div className={"pageHeroHeader"}>
         <img className={"logoImage"} ref={imageRef} src={logo}/>
-        <button className={"logoButton"}>
+        <button onClick={handlePlayNow} className={"logoButton"}>
             PLAY NOW ▷
         </button>
     </div>
