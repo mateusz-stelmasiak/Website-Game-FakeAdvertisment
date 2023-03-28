@@ -5,6 +5,15 @@
         object-position: 40% 0;
     }
 }
+
+@media only screen and (max-width: 1200px){
+    .aboutImageContainer{
+        margin: auto;
+        margin-top:50px;
+    }
+}
+
+
 @media only screen and (max-width: 1700px){
     .App{
         padding:0 2rem;
