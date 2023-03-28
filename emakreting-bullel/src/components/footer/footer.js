@@ -3,10 +3,10 @@ import React, {useState} from "react";
 
 export default function Footer() {
     const [links, setLinks] = useState([
-            {link: '/test', title: 'test'},
-            {link: '/test', title: 'test'},
-            {link: '/test', title: 'test'},
-            {link: '/test', title: 'test'}]
+            {link: '/#about', title: 'About'},
+            {link: '/#reviews', title: 'Reviews'},
+            {link: '/#contact', title: 'Contact'}
+        ]
     );
 
 
@@ -21,9 +21,10 @@ export default function Footer() {
             </div>
 
             <div className={styles.hyperlinksContainer}>
-                {links && Object.keys(links).map((link, index) => {
+                {links.map((link, index) => {
+
                     return (
-                        <a key={"footer-link" + index} href={`${link}`}> {links[link].title} </a>
+                        <a key={"footer-link" + index} href={`${link.link}`}> {link.title} </a>
                     )
                 })}
 
