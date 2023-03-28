@@ -24,10 +24,10 @@ export default function AboutSection() {
             className={"infoButton"} onClick={() => scrollToSection("contact")}>&nbsp;contact</Button>
         </div>
         <Row className={"aboutSectionWrapper"}>
-            <Col span={8} className={"aboutColumn"}>
+            <Col lg={{span:11}} xl={{span:9}} xxl={{span:8}} className={"aboutColumn"}>
                 <img src={AboutImage} className={"aboutImageContainer"}/>
             </Col>
-            <Col span={16} className={"aboutColumn"}>
+            <Col lg={{span:13}} xl={{span:15}} xxl={{span:16}} className={"aboutColumn"}>
                 <div className={"aboutText"}>
                     <div className={"aboutHeader"}>
                         ABOUT
