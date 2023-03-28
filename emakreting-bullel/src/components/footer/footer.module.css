@@ -1,5 +1,5 @@
 .Footer {
-    background-color: gray;
+    background-color: #131313;
     color: white;
     display: flex;
     align-items: center;
@@ -10,17 +10,17 @@
 
 .Footer a {
     all: unset;
-    color: var(--background-color);
+    color: whitesmoke;
     cursor: pointer;
 }
 
 .Footer a:hover {
-    color: var(--section-bg-color);
+    color: white;
 }
 
-.moreinfoContainer {
-    font-weight: bold;
-    filter: grayscale(100%) brightness(200);
+.moreinfoContainer img{
+    width: 100px;
+    height: auto;
 }
 
 /* insert | between all elements in hyperlinks container excpet the last one*/

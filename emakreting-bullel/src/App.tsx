@@ -21,7 +21,7 @@ function App() {
                 <AboutSection/>
                 <ReviewsSection/>
                 <FindUsSection/>
-                <Contact/>
+
                 <InfoSectionRight imageSrc={InfoImageTwo} direction={"right"} header={"About Us"}
                                   text={"At Bullel, we're passionate about creating challenging and rewarding games that push the limits of gameplay and storytelling. Our team of dedicated developers works tirelessly to craft unique gaming experiences that are both beautiful and thrilling.\n" +
                                       "We're inspired by the mid-journey art style, and we believe that it adds an extra layer of depth to our games."}/>
@@ -32,6 +32,7 @@ function App() {
                                       "Bullel to gra jest gra lBullel to gra jest gra Bullel to gra jest gra Bullel to gra jest gra " +
                                       "Bullel to gra jest gra lel to gra jesBullel to gra jest gra t gra "}/>
                 <div style={{height: "100px"}}></div>
+                <Contact/>
             </Col>
             <Footer/>
         </Row>
