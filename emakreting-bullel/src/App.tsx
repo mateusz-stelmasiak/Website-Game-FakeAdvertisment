@@ -24,7 +24,6 @@ function App() {
                 <AboutSection/>
                 <ReviewsSection/>
                 <OurGameSection/>
-                <FindUsSection/>
 
                 <InfoSectionRight imageSrc={InfoImageTwo} direction={"right"} header={"About Us"}
                                   text={"At Bullel, we're passionate about creating challenging and rewarding games that push the limits of gameplay and storytelling. Our team of dedicated developers works tirelessly to craft unique gaming experiences that are both beautiful and thrilling.\n" +
@@ -33,6 +32,7 @@ function App() {
                                   text={"At Bullel, we're always pushing the boundaries of what's possible in game development. That's why we chose to use Mid-Journey AI to generate our game assets. This powerful tool allows us to create stunning, high-quality visuals that immerse players in our dark fantasy world like never before. With Mid-Journey AI, we're able to generate detailed, lifelike environments and characters that truly bring our game to life."}/>
                 <div style={{height: "100px"}}></div>
                 <Contact/>
+                <FindUsSection/>
             </Col>
             <Footer/>
         </Row>

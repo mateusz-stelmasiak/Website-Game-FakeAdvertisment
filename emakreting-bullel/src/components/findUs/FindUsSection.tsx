@@ -9,9 +9,9 @@ export default function FindUsSection() {
 
 
     return <>
-        <div style={{marginBottom:"60px",marginTop:"80px",marginLeft:"60px"}} className={"aboutHeader"}>
+        <div style={{marginBottom:"60px",marginTop:"20px"}} className={"reviewHeader"}>
             Find us
-            <div className={"aboutHeaderDecoration"}>
+            <div style={{marginLeft:20}} className={"reviewHeaderDecoration"}>
                 Find us
             </div>
         </div>
