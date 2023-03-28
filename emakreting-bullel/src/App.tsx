@@ -13,6 +13,7 @@ import InfoImageTwo from "./assets/chrome_FI1j4IorZ2.png";
 
 import Footer from "./components/footer/footer"
 import LogoButton from "./components/pageHero/logoButton";
+import OurGameSection from "./components/ourGamesSection/ourGamesSection";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
             <Col xxl={{offset: 2, span: 20}} xl={{span: 24, offset: 0}}>
                 <AboutSection/>
                 <ReviewsSection/>
+                <OurGameSection/>
                 <FindUsSection/>
                 <Contact/>
                 <InfoSectionRight imageSrc={InfoImageTwo} direction={"right"} header={"About Us"}
