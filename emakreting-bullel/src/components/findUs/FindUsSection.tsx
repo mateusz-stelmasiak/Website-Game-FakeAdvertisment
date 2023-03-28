@@ -7,6 +7,9 @@ import "./findUsSection.css"
 
 export default function FindUsSection() {
 
+    let handleIconClick = (url:string)=>{
+        window.location.href = url;
+    }
 
     return <>
         <div style={{marginBottom:"60px",marginTop:"20px"}} className={"reviewHeader"}>
@@ -16,13 +19,13 @@ export default function FindUsSection() {
             </div>
         </div>
         <div className={"findUsSection"} style={{marginBottom:"80px"}}>
-            <img className={"logo"} src={SteamLogo}/>
-            <img className={"logo"} src={EpicLogo}/>
-            <img className={"logo"} src={InstagramLogo}/>
+            <img onClick={()=>handleIconClick("https://store.steampowered.com/")} className={"logo"} src={SteamLogo}/>
+            <img onClick={()=>handleIconClick("https://store.epicgames.com/")} className={"logo"} src={EpicLogo}/>
+            <img  onClick={()=>handleIconClick("https://instagram.com/")} className={"logo"} src={InstagramLogo}/>
         </div>
         <div className={"findUsSection"}>
-            <img className={"logo"} src={FaceLogo}/>
-            <img className={"logo"} src={TwitterLogo}/>
+            <img onClick={()=>handleIconClick("https://facebook.com/")} className={"logo"} src={FaceLogo}/>
+            <img  onClick={()=>handleIconClick("https://twitter.com/")} className={"logo"} src={TwitterLogo}/>
         </div>
 
     </>
