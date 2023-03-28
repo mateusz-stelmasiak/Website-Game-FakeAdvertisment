@@ -16,7 +16,7 @@ export default function ReviewsSection() {
         slidesToScroll: 1
     };
 
-    return <div className={"reviewsWrapper"}>
+    return <div id={"reviews"} className={"reviewsWrapper"}>
         <div className={"reviewHeader"}>
             REVIEWS
             <div className={"reviewHeaderDecoration"}>
