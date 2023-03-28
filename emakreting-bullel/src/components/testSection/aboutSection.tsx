@@ -3,12 +3,25 @@ import {Row, Col, Button} from "antd";
 import AboutImage from "../../assets/chrome_4T6Fo21uL7.png"
 
 export default function AboutSection() {
+    let scrollToSection = (sectionId: string) => {
+        let section = document.getElementById(sectionId);
+        if (!section) {
+            //is not a section but url
+            if (sectionId.includes("/")) {
+                window.location.href = `${sectionId}`
+                return;
+            }
+            window.location.href = `/#${sectionId}`
+            return;
+        }
+        section.scrollIntoView({behavior: "smooth", block: "center"})
+    }
 
-    return <div style={{marginTop: 200, marginBottom: 150}}>
+    return <div id={"about"} style={{marginTop: 200, marginBottom: 150}}>
         <div className={"infoText"}>
-            <Button className={"infoButton"}>about&nbsp;</Button> | <Button
-            className={"infoButton"}>&nbsp;reviews&nbsp;</Button> | <Button
-            className={"infoButton"}>&nbsp;contact</Button>
+            <Button className={"infoButton"}onClick={() => scrollToSection("about")}>about&nbsp;</Button> | <Button
+            className={"infoButton"} onClick={() => scrollToSection("reviews")}>&nbsp;reviews&nbsp;</Button> | <Button
+            className={"infoButton"} onClick={() => scrollToSection("contact")}>&nbsp;contact</Button>
         </div>
         <Row className={"aboutSectionWrapper"}>
             <Col span={8} className={"aboutColumn"}>
