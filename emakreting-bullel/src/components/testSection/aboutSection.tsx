@@ -17,17 +17,18 @@ export default function AboutSection() {
         section.scrollIntoView({behavior: "smooth", block: "center"})
     }
 
-    return <div id={"about"} style={{marginTop: 200, marginBottom: 150}}>
+    return <div id={"about"} style={{marginTop: 0, marginBottom: 150}}>
         <div className={"infoText"}>
-            <Button className={"infoButton"}onClick={() => scrollToSection("about")}>about&nbsp;</Button> | <Button
+            <Button className={"infoButton"} onClick={() => scrollToSection("about")}>about&nbsp;</Button> | <Button
             className={"infoButton"} onClick={() => scrollToSection("reviews")}>&nbsp;reviews&nbsp;</Button> | <Button
             className={"infoButton"} onClick={() => scrollToSection("contact")}>&nbsp;contact</Button>
         </div>
         <Row className={"aboutSectionWrapper"}>
-            <Col span={8} className={"aboutColumn"}>
+            <Col sm={{span: 24, order: 1}} xl={{span: 11, order: 0}} xxl={{span: 8, order: 0}}
+                 className={"aboutColumn"}>
                 <img src={AboutImage} className={"aboutImageContainer"}/>
             </Col>
-            <Col span={16} className={"aboutColumn"}>
+            <Col xl={{span: 13}} xxl={{span: 16}} className={"aboutColumn"}>
                 <div className={"aboutText"}>
                     <div className={"aboutHeader"}>
                         ABOUT
