@@ -1,0 +1,13 @@
+.ourGamesSection {
+    color: whitesmoke;
+}
+
+.ant-timeline-item-tail {
+    border-color: goldenrod !important;
+}
+
+.ant-timeline-item-head-blue {
+    color: #c76161 !important;
+    border-color: #c24949 !important;
+    background: unset !important;
+}
