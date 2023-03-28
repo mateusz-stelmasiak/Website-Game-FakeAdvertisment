@@ -43,13 +43,15 @@
 }
 
 .pageHeroHeader{
-    position: absolute;
-    bottom: -15%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top:-300px;
+    z-index: 1000;
     display: flex;
     align-items: center;
     flex-direction: column;
+    position:sticky;
+    top:-12%;
+    width:100%;
+
 }
 
 .pageHeroHeader h1{
@@ -68,15 +70,15 @@
     all:unset;
     cursor: pointer;
     margin-top: 15px;
-    color:white;
-    background-color: transparent;
+    color:goldenrod;
+    background-color: darkred;
     padding:15px 25px 15px 45px;
     font-size: 32px;
     border: 3px solid whitesmoke;
     transition: transform 330ms ease-in-out;
     top:35%;
     position: absolute;
-    left: 28%;
+    left: 46.4%;
     right: 0;
     overflow: hidden;
     z-index: 1;
@@ -96,4 +98,21 @@
 #right-overlay{
     right: 0;
     background-position: 100% 0%;
+}
+
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.logoButton{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+}
+
+.logoImage{
+    position:relative;
 }

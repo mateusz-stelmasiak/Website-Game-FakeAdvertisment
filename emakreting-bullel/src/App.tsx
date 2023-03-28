@@ -12,11 +12,13 @@ import InfoImageTwo from "./assets/chrome_FI1j4IorZ2.png";
 
 
 import Footer from "./components/footer/footer"
+import LogoButton from "./components/pageHero/logoButton";
 
 function App() {
     return (
         <Row className="App">
             <PageHero/>
+            <LogoButton/>
             <Col xxl={{offset: 2, span: 20}} xl={{span: 24, offset: 0}}>
                 <AboutSection/>
                 <ReviewsSection/>
