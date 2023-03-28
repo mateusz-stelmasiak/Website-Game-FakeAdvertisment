@@ -23,15 +23,19 @@ export default function PageHero() {
                 width="100%"
                 height="100%"
             />
-            <div className={"overlay"}
-                 style={{backgroundImage: `url(${overlayImage})`, backgroundRepeat: 'no-repeat', objectFit: 'cover'}}>
-            <div className={"overlay"}
-                 style={{backgroundImage: `url(${left})`, backgroundRepeat: 'no-repeat', objectFit: 'cover'}}/>
-
-                <div className={"overlay"}
-                     style={{backgroundImage: `url(${right})`, backgroundRepeat: 'no-repeat', objectFit: 'cover'}} id={"right-overlay"}/>
-
+            <div className={"sideShadows"}/>
+            <div className={"bottomShadow"}/>
+            <div className={"overlay"}>
+                <img className={"imgLeft"} src={left}/>
+                <img className={"imgRight"} src={right}/>
             </div>
+
+            {/*<div className={"overlay"}*/}
+            {/*     style={{backgroundImage: `url(${left})`, backgroundRepeat: 'no-repeat', objectFit: 'cover'}}/>*/}
+
+            {/*<div className={"overlay"}*/}
+            {/*     style={{backgroundImage: `url(${right})`, backgroundRepeat: 'no-repeat', objectFit: 'cover'}} id={"right-overlay"}/>*/}
+
         </div>
     </div>
 }
