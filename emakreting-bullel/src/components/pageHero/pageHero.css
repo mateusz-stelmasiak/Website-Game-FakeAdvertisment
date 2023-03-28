@@ -88,23 +88,24 @@
 .pageHeroHeader button{
     all:unset;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: -35px;
     color:#ffac4b;
     background-color: #340e03;
-    padding:15px 25px 15px 45px;
-    font-size: 32px;
+    padding:15px 15px 15px 45px;
+    font-size: 25px;
     border: 1px solid #ffac4b;
     transition: transform 330ms ease-in-out;
     top: 110px;
     position: absolute;
-    left: 46.4%;
+    left: 45%;
     right: 0;
     overflow: hidden;
-    z-index: 1;width: 200px;
+    z-index: 1;
+    width: 160px;
     text-align: right;
 }
 .pageHeroHeader button:hover{
-    transform: translateX(160px);
+    transform: translateX(130px);
 
 }
 
@@ -123,5 +124,6 @@
 .logoImage{
     position:relative;
     z-index: 100;
+    width: 220px;
 }
 
