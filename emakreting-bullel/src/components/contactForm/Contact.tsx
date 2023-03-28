@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import {Button, Form, Input} from "antd";
 import {MessageFilled} from '@ant-design/icons';
 import TextArea from "antd/es/input/TextArea";
+
 const emailRegex = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
 const sendContactMsgPath = "/PhpScripts/sendContactMsg.php"
 
@@ -27,7 +28,7 @@ function Contact({}) {
 
     function inputMsg(msg: string) {
         if (msg.length > 500) {
-            setFeedback("Wiadomość zbyt długa!");
+            setFeedback("Error: Wiadomość zbyt długa!");
             return;
         }
         setFeedback("");
@@ -45,16 +46,16 @@ function Contact({}) {
 
         //validate email
         if (email !== "" && !email.match(emailRegex)) {
-            setFeedback("Niepoprawny adres email!");
+            setFeedback("Error: Niepoprawny adres email!");
             return
         }
         //valide name and surname
         if (name === "") {
-            setFeedback("Brak imienia i nazwiska!");
+            setFeedback("Error: Brak imienia i nazwiska!");
             return
         }
         if (msg === "") {
-            setFeedback("Brak treści!");
+            setFeedback("Error: Brak treści!");
             return
         }
         //replace all newlines with <br/> to keep format
@@ -81,24 +82,25 @@ function Contact({}) {
 
     return (
         <section className={"contactSectionContainer"} id="contact">
-            <div>
-                <MessageFilled className={"icon"}/>
-                <div className={"textContainer"}>
 
-                    <h2 className={"titleText"}>
-                        <div>
-                            <div className={"aboutHeader"}>
+
+            <div className={"textContainer"}>
+                {/*<MessageFilled className={"icon"}/>*/}
+
+                <h2 className={"titleText"}>
+                    <div>
+                        <div className={"aboutHeader"}>
+                            CONTACT
+                            <div className={"aboutHeaderDecoration"}>
                                 CONTACT
-                                <div className={"aboutHeaderDecoration"}>
-                                    CONTACT
-                                </div>
                             </div>
                         </div>
-                    </h2>
+                    </div>
+                </h2>
 
-                    <div className={"titleBackgroundBlur"}/>
-                </div>
+                <div className={"titleBackgroundBlur"}/>
             </div>
+
 
             <div className={"contactContainer"}>
                 <Form>
@@ -108,9 +110,9 @@ function Contact({}) {
                             type="text"
                             value={name}
                             onChange={(e) => inputName(e.target.value)}
-                            placeholder="Twoje imię i nazwisko"
+                            placeholder="Your name and surname"
                             required
-                        className={"form-group"}
+                            className={"form-group"}
                         >
                         </Input>
                     </Form.Item>
@@ -120,14 +122,14 @@ function Contact({}) {
                             type="email"
                             value={email}
                             onChange={(e) => inputEmail(e.target.value)}
-                            placeholder="Twój adres email"
+                            placeholder="Your email address"
                             required>
                         </Input>
                     </Form.Item>
                     <Form.Item>
                         <TextArea
                             rows={4}
-                            placeholder="Twoja wiadomość"
+                            placeholder="Your message"
                             maxLength={20}
                             id="msg"
                             value={msg}
@@ -141,13 +143,12 @@ function Contact({}) {
                         {feedback}
                     </div>}
 
-                    <button type={"submit"} onSubmit={sendMsg}>
-                        Wyślij
+                    <button type={"submit"} onClick={sendMsg}>
+                        Send
                     </button>
 
                 </Form>
             </div>
-
 
 
         </section>

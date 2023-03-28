@@ -25,7 +25,7 @@ export default function ReviewsSection() {
         </div>
         <span>they say we're good...</span>
 
-        <Slider dots={true} infinite={true} speed={500} slidesToShow={4} slidesToScroll={1}>
+        <Slider arrows={false} swipe={true} dots={true} infinite={true} speed={500} slidesToShow={4}>
             <div className={"reviewPlaceholder"}>
                 <ReviewCard
 

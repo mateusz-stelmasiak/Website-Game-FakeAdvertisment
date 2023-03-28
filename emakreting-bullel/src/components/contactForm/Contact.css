@@ -1,7 +1,7 @@
 :root{
     --text-color: #e3e3e3;
     --primary-color:#f1f1f1;
-    --secondary-color:red;
+    --secondary-color:whitesmoke;
     --bg-color:black;
 }
 
@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-around;
 }
+
 
 
 
@@ -48,7 +49,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    column-gap: 10rem;
+    column-gap: 4rem;
     align-items: center;
     justify-content: flex-end;
     padding: 2rem 0 7rem;
@@ -57,7 +58,10 @@
 .contactContainer {
     width: min(100%, 75rem);
     background-color: var(--bg-color);
-    box-shadow: -15px 0px 24px 0px rgba(66, 68, 90, 0.50);
+    background-image: linear-gradient(to bottom, #333 30%, rgba(255, 255, 255, 0) 0%);
+    background-position: left;
+    background-size: 3px 90px;
+    background-repeat: repeat-y;
     position: relative;
     z-index: 2;
 }
@@ -142,6 +146,9 @@
 
 }
 
+.contactContainer .feedback{
+    color:white;
+}
 
 .titleText {
     padding: 0.5rem 0;
@@ -182,7 +189,7 @@
     display:none;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1650px) {
     .titleText {
         writing-mode: unset;
         text-orientation: unset;
@@ -204,9 +211,17 @@
     .textContainer {
         order: -1;
         padding: 2% 2%;
+        width: 100%;
+
     }
-
-
+    .titleText{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contactSectionContainer .aboutHeaderDecoration{
+        transform: translateX(15px) translateY(0px) !important;
+    }
     .textContainer svg {
         margin-top: -5%;
     }
