@@ -16,6 +16,10 @@ export default function ReviewsSection() {
         slidesToScroll: 1
     };
 
+    let handleSeeAll = ()=>{
+        window.location.href = `https://store.steampowered.com/`
+    }
+
     return <div className={"reviewsWrapper"}>
         <div className={"reviewHeader"}>
             REVIEWS
@@ -61,9 +65,8 @@ export default function ReviewsSection() {
                 <ReviewCard
                     reviewText={"\"Super gra, spędziłem w niej 3 godziny a nadal nie moge przejść drugiego poziomu\" - BlackSheep7"}
                     companyName={"STEAM"} logo={SteamLogo} starCount={4.5}/>
-
             </div>
         </Slider>
-        <Button>SEE ALL</Button>
+        <Button onClick={handleSeeAll}>SEE ALL</Button>
     </div>
 }
