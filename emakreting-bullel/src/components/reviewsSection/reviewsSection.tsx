@@ -6,6 +6,10 @@ import "slick-carousel/slick/slick-theme.css";
 import ReviewCard from "../reviewCard/reviewCard";
 import SteamLogo from "../../assets/Steam_icon_logo.png"
 import EpicLogo from "../../assets/epic-games-2.svg"
+import TestAvatar from "../../assets/testAvatar.jpg"
+import TestAvatar2 from "../../assets/testAvatar2.jpg"
+import TestAvatar3 from "../../assets/testAvatar3.png"
+import TestAvatar4 from "../../assets/testAvatar4.jpg"
 
 export default function ReviewsSection() {
     let settings = {
@@ -30,25 +34,25 @@ export default function ReviewsSection() {
                 <ReviewCard
 
                     reviewText={"\"This game is insane! Bullel's difficulty level is through the roof, but it's so rewarding when you make progress.\""}
-                    companyName={"ProGamerX"} logo={SteamLogo} starCount={5}/>
+                    companyName={"ProGamerX"} logo={TestAvatar} starCount={5}/>
 
             </div>
             <div className={"reviewPlaceholder"}>
                 <ReviewCard
                     reviewText={"\"Bullel is incredibly challenging! I've been playing for hours and still can't pass the second level.\""}
-                    companyName={"MasterBlaster"} logo={EpicLogo} starCount={4.5}/>
+                    companyName={"MasterBlaster"} logo={TestAvatar2} starCount={4.5}/>
 
             </div>
             <div className={"reviewPlaceholder"}>
                 <ReviewCard
                     reviewText={"\"Bullel is the ultimate bullet hell game! It's not for the faint of heart, but if you're up for the challenge, it's so worth it.\""}
-                    companyName={"BulletStormer"} logo={EpicLogo} starCount={4}/>
+                    companyName={"BulletStormer"} logo={TestAvatar3} starCount={4}/>
 
             </div>
             <div className={"reviewPlaceholder"}>
                 <ReviewCard
                     reviewText={"\"I can't get enough of Bullel! The fast-paced gameplay and intense difficulty make it the perfect game for adrenaline junkies.\""}
-                    companyName={"BulletFury"} logo={SteamLogo} starCount={4.5}/>
+                    companyName={"BulletFury"} logo={TestAvatar4} starCount={4.5}/>
 
             </div>
             <div className={"reviewPlaceholder"}>
