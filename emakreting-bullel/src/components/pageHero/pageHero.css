@@ -106,7 +106,6 @@
 }
 .pageHeroHeader button:hover{
     transform: translateX(130px);
-
 }
 
 #right-overlay{
@@ -127,3 +126,13 @@
     width: 220px;
 }
 
+@media only screen and (max-width: 900px) {
+    .pageHeroVideo video {
+        object-fit: cover;
+        object-position: 10% 0;
+    }
+
+    .overlay{
+        display: none;
+    }
+}
