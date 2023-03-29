@@ -189,7 +189,7 @@
     display:none;
 }
 
-@media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1700px) {
     .titleText {
         writing-mode: unset;
         text-orientation: unset;

@@ -12,7 +12,29 @@
 .logo{
     height: 128px;
     cursor: pointer;
+    transition: 0.3s;
 }
 .logo:hover{
     transform: scale(1.05);
+    filter: drop-shadow(20px 10px 2px #232323);
+}
+
+@media only screen and (max-width: 850px) {
+    .logo{
+        height: 100px;
+    }
+    .findUsSection{
+        gap: 80px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .findUsSection{
+        gap: 30px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .logo{
+        height: 60px;
+    }
 }
