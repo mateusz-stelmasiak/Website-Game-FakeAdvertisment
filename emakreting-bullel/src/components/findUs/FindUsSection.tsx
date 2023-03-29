@@ -13,9 +13,9 @@ export default function FindUsSection() {
 
     return <>
         <div style={{marginBottom:"60px",marginTop:"20px"}} className={"reviewHeader"}>
-            Find us
+            FIND US
             <div style={{marginLeft:20}} className={"reviewHeaderDecoration"}>
-                Find us
+                FIND US
             </div>
         </div>
         <div className={"findUsSection"} style={{marginBottom:"80px"}}>
