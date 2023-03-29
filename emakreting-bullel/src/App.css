@@ -7,10 +7,29 @@
     }
 
     .aboutText {
-        margin: unset!important;
+        margin: unset !important;
     }
-    .aboutDescription{
-        margin-bottom: 60px!important;
+
+    .aboutDescription {
+        margin-bottom: 60px !important;
+    }
+
+    .timelineItem {
+        font-size: 16px !important;
+    }
+
+    .timelineImage {
+        max-width: 240px;
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    .reviewHeaderDecoration {
+        position: absolute;
+        top: 22%;
+        left: 25% !important;
+        color: #f5f5f530;
+        white-space: nowrap;
     }
 }
 
@@ -21,5 +40,15 @@
 @media only screen and (max-width: 1700px) {
     .App {
         padding: 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .reviewHeaderDecoration {
+        position: absolute;
+        top: 22%;
+        left: 10% !important;
+        color: #f5f5f530;
+        white-space: nowrap;
     }
 }
