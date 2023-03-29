@@ -1,16 +1,24 @@
 import {Row, Col, Button} from "antd";
 
 
-export default function InfoSectionRight(props:InfoSectionProps) {
+export default function InfoSectionRight(props: InfoSectionProps) {
 
-    return <div style={{marginTop:80}}>
+    return <div style={{marginTop: 80}}>
         <Row className={"aboutSectionWrapper"}>
-            <Col order={props.direction === "right" ? 0 : 1} offset={props.direction === "right" ? 2 : 2} span={props.direction === "right" ? 8 : 9} className={"aboutColumn"}>
+            <Col xl={{
+                order: props.direction === "right" ? 0 : 1,
+                offset: props.direction === "right" ? 2 : 2,
+                span: props.direction === "right" ? 8 : 9
+            }} className={"aboutColumn"}>
                 <div className={"imagePlaceholder"}>
-                        <img src={props.imageSrc} className={"imgContainerInfo"}/>
+                    <img src={props.imageSrc} className={"imgContainerInfo"}/>
                 </div>
             </Col>
-            <Col order={props.direction === "right" ? 1 : 0} offset={props.direction === "right" ? 1 : 2} span={props.direction === "right" ? 9 : 8} className={"aboutColumn"}>
+            <Col xl={{
+                order: props.direction === "right" ? 1 : 0,
+                offset: props.direction === "right" ? 1 : 2,
+                span: props.direction === "right" ? 9 : 8
+            }} className={"aboutColumn"}>
                 <div className={props.direction === "right" ? "aboutText" : "aboutTextRight"}>
                     <div className={"aboutHeader"}>
                         {props.header}
@@ -27,9 +35,9 @@ export default function InfoSectionRight(props:InfoSectionProps) {
     </div>
 }
 
-interface InfoSectionProps{
-    direction:"right" | "left";
+interface InfoSectionProps {
+    direction: "right" | "left";
     header: string,
     text: string,
-    imageSrc:any;
+    imageSrc: any;
 }

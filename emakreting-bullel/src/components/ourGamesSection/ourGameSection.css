@@ -1,5 +1,6 @@
 .ourGamesSection {
     color: whitesmoke;
+    margin-top: 200px;
 }
 
 .ant-timeline-item-tail {
@@ -10,4 +11,8 @@
     color: white !important;
     border-color: whitesmoke !important;
     background: unset !important;
+}
+
+.ant-timeline-item{
+    padding-bottom: 40px!important;
 }
