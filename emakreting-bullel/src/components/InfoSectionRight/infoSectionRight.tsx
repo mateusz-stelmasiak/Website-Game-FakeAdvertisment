@@ -5,7 +5,18 @@ export default function InfoSectionRight(props: InfoSectionProps) {
 
     return <div style={{marginTop: 80}}>
         <Row className={"aboutSectionWrapper"}>
-            <Col xl={{
+            <Col
+                sm={{
+                    order: 1,
+                    offset: 0,
+                    span: 24
+                }}
+                xl={{
+                    order: props.direction === "right" ? 0 : 1,
+                    offset: props.direction === "right" ? 1 : 1,
+                    span: props.direction === "right" ? 11 : 8
+                }}
+                xxl={{
                 order: props.direction === "right" ? 0 : 1,
                 offset: props.direction === "right" ? 2 : 2,
                 span: props.direction === "right" ? 8 : 9
@@ -14,7 +25,18 @@ export default function InfoSectionRight(props: InfoSectionProps) {
                     <img src={props.imageSrc} className={"imgContainerInfo"}/>
                 </div>
             </Col>
-            <Col xl={{
+            <Col
+                sm={{
+                    order: 0,
+                    offset: 0,
+                    span: 24
+                }}
+                xl={{
+                    order: props.direction === "right" ? 1 : 0,
+                    offset: props.direction === "right" ? 1 : 1,
+                    span: props.direction === "right" ? 11 : 9
+                }}
+                xxl={{
                 order: props.direction === "right" ? 1 : 0,
                 offset: props.direction === "right" ? 1 : 2,
                 span: props.direction === "right" ? 9 : 8
