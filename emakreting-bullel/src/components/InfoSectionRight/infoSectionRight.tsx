@@ -14,7 +14,7 @@ export default function InfoSectionRight(props: InfoSectionProps) {
                 xl={{
                     order: props.direction === "right" ? 0 : 1,
                     offset: props.direction === "right" ? 1 : 1,
-                    span: props.direction === "right" ? 11 : 8
+                    span: props.direction === "right" ? 11 : 11
                 }}
                 xxl={{
                 order: props.direction === "right" ? 0 : 1,
@@ -38,8 +38,8 @@ export default function InfoSectionRight(props: InfoSectionProps) {
                 }}
                 xxl={{
                 order: props.direction === "right" ? 1 : 0,
-                offset: props.direction === "right" ? 1 : 2,
-                span: props.direction === "right" ? 9 : 8
+                offset: props.direction === "right" ? 1 : 1,
+                span: props.direction === "right" ? 9 : 9
             }} className={"aboutColumn"}>
                 <div className={props.direction === "right" ? "aboutText" : "aboutTextRight"}>
                     <div className={"aboutHeader"}>
