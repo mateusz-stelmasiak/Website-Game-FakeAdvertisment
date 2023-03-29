@@ -16,7 +16,7 @@ import LogoButton from "./components/pageHero/logoButton";
 import OurGameSection from "./components/ourGamesSection/ourGamesSection";
 
 function App() {
-    return (
+    return <>
         <Row className="App">
             <PageHero/>
             <LogoButton/>
@@ -34,9 +34,9 @@ function App() {
                 <Contact/>
                 <FindUsSection/>
             </Col>
-            <Footer/>
         </Row>
-    );
+        <Footer/>
+    </>
 }
 
 export default App;

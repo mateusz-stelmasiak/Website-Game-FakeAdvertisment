@@ -27,12 +27,11 @@
 }
 
 .aboutText {
-    margin-left: 60px;
+    margin-left: 30px;
     font-size: 24px;
 }
 
 .aboutTextRight {
-
     font-size: 24px;
 }
 
@@ -53,6 +52,7 @@
 .aboutColumn {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .infoText {
