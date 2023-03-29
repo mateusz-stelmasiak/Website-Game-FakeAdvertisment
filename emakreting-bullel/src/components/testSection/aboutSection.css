@@ -16,6 +16,7 @@
     max-width: 530px;
     border-radius: 16px;
     box-shadow: 0px 10px 38px 0px rgba(62, 62, 107, 0.6);
+    margin-bottom: 40px;
 }
 
 .imgContainerInfo {
@@ -26,6 +27,7 @@
     max-width: 530px;
     border-radius: 16px;
     box-shadow: 0px 10px 38px 0px rgba(38, 107, 29, 0.6);
+    margin-bottom: 40px;
 }
 
 .aboutText {
@@ -58,6 +60,7 @@
 }
 
 .infoText {
+    margin-bottom: 40px;
     font-size: 36px;
     color: white;
     display: flex;

@@ -21,9 +21,7 @@ export default function InfoSectionRight(props: InfoSectionProps) {
                 offset: props.direction === "right" ? 2 : 2,
                 span: props.direction === "right" ? 8 : 9
             }} className={"aboutColumn"}>
-                <div className={"imagePlaceholder"}>
                     <img src={props.imageSrc} className={"imgContainerInfo"}/>
-                </div>
             </Col>
             <Col
                 sm={{
