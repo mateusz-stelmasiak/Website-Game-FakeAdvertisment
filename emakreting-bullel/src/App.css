@@ -50,5 +50,20 @@
         left: 10% !important;
         color: #f5f5f530;
         white-space: nowrap;
+        font-size: 48px!important;
+    }
+    .reviewHeader{
+        font-size: 48px!important;
+    }
+
+    .aboutHeader{
+        font-size: 48px!important;
+    }
+    .App {
+        padding: 0 1rem;
+    }
+
+    .aboutDescription{
+        text-align: center;
     }
 }
