@@ -25,7 +25,6 @@ export default function Footer() {
 
 
     return (
-
         <footer className={styles.Footer}>
 
             <div className={styles.moreinfoContainer}>

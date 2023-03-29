@@ -3,9 +3,10 @@
     color: white;
     display: flex;
     align-items: center;
-    padding: 2rem 10vw;
+    padding: 2rem 0;
     justify-content: space-between;
-    width: 100%
+    width: 100%;
+    max-width: 100%;
 }
 
 .Footer a {
