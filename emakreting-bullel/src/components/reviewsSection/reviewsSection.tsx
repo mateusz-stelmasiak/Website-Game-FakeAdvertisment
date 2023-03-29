@@ -12,14 +12,27 @@ import TestAvatar3 from "../../assets/testAvatar3.png"
 import TestAvatar4 from "../../assets/testAvatar4.jpg"
 
 export default function ReviewsSection() {
-    let settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 1
-    };
 
+    let responsiveSettings =[
+        {
+            breakpoint: 1150,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
 
     let handleSeeAll = ()=>{
         window.location.href = `https://store.steampowered.com/`
@@ -35,7 +48,9 @@ export default function ReviewsSection() {
         </div>
         <span>they say we're good...</span>
 
-        <Slider arrows={false} swipe={true} dots={true} infinite={true} speed={500} slidesToShow={4}>
+        <Slider arrows={false} swipe={true} dots={true} infinite={true} speed={500} slidesToShow={3.75}
+                responsive={responsiveSettings}
+        >
             <div className={"reviewPlaceholder"}>
                 <ReviewCard
 
