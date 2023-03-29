@@ -29,9 +29,11 @@ export default function LogoButton() {
     }
 
     return <div className={"pageHeroHeader"}>
-        <img className={"logoImage"} ref={imageRef} src={logo}/>
-        <button onClick={handlePlayNow} className={"logoButton"}>
-            PLAY NOW ▷
-        </button>
+        <div className={"buttonContainer"}>
+            <img className={"logoImage"} ref={imageRef} src={logo}/>
+            <button onClick={handlePlayNow} className={"logoButton"}>
+                PLAY NOW ▷
+            </button>
+        </div>
     </div>
 }
