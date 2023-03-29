@@ -60,12 +60,18 @@
 
 
 @media (max-width: 600px) {
-    .Footer {
-        padding: 5rem 5vw;
+    .moreinfoContainer{
+        margin-left: 30px;
+    }
+    .hyperlinksContainer{
+        margin-right: 30px;
     }
 
-    .moreinfoContainer {
-        display: none;
-    }
+}
 
+.moreinfoContainer{
+    margin-left: 100px;
+}
+.hyperlinksContainer{
+    margin-right: 100px;
 }
